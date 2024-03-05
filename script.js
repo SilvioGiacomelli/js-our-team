@@ -29,4 +29,7 @@ const membriTeam = [
     foto: "barbara-ramos-graphic-designer.jpg"
   }
 ];
+
  console.log (membriTeam)
+
+ for
