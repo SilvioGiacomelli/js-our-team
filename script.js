@@ -1,3 +1,4 @@
+const output = document.querySelector(".output")
 const membriTeam = [
   {
     nome: "Wayne Barnett",
@@ -33,5 +34,16 @@ const membriTeam = [
  console.log (membriTeam);
 
  for(let membro of membriTeam){
-  console.log(membro)
+  console.log(membro);
+  output.innerHTML += `
+  <div class="col">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="img/${membro.foto}">
+            <h5 class="card-title">${membro.nome}</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">${membro.ruolo}</h6> 
+          </div>
+        </div>
+  </div>
+  `
  }
