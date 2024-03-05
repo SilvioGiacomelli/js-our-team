@@ -30,6 +30,8 @@ const membriTeam = [
   }
 ];
 
- console.log (membriTeam)
+ console.log (membriTeam);
 
- for
+ for(let membro of membriTeam){
+  console.log(membro)
+ }
