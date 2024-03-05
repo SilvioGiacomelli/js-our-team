@@ -39,7 +39,7 @@ const membriTeam = [
   <div class="col">
         <div class="card">
           <div class="card-body">
-            <img src="img/${membro.foto}">
+            <img src="img/${membro.foto}" class= "card-img-top" >
             <h5 class="card-title text-center mx-1">${membro.nome}</h5>
             <h6 class="card-subtitle text-body-secondary text-center">${membro.ruolo}</h6> 
           </div>
